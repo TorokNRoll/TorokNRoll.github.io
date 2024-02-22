@@ -1,0 +1,128 @@
+---
+title: SIGHASH_ANYPREVOUT
+
+## Required.  At least one category to which this topic belongs.  See
+## schema for options
+categories:
+  - Soft Forks
+  - Scripts and Addresses
+
+aliases:
+  - SIGHASH_NOINPUT
+
+## Required.  Use Markdown formatting.  Only one paragraph.  No links allowed.
+excerpt: >
+  **SIGHASH\_ANYPREVOUT**, an updated version of SIGHASH\_NOINPUT, is a proposal for a
+  signature hash (sighash) where the identifier for the UTXO being
+  spent is not signed, allowing the signature to be used with any
+  UTXO that's protected by a similar script (i.e. uses the same public
+  keys).
+
+## Optional.  Produces a Markdown link with either "[title][]" or
+## "[title](link)"
+primary_sources:
+    - title: BIP118
+
+## Optional.  Each entry requires "title", "url", and "date".  May also use "feature:
+## true" to bold entry
+optech_mentions:
+  - title: Renaming of `SIGHASH_NOINPUT` to `SIGHASH_NOINPUT_UNSAFE`
+    url: /en/newsletters/2018/07/17/#naming-of-sighash-noinput
+
+  - title: "Discussion of the evolution of script: `SIGHASH_NOINPUT_UNSAFE`"
+    url: /en/newsletters/2018/10/09/#discussion-the-evolution-of-bitcoin-script
+
+  - title: Proposal included additional data in sighashes
+    url: /en/newsletters/2018/11/27/#sighash-updates
+
+  - title: "`SIGHASH_NOINPUT_UNSAFE` edge cases"
+    url: /en/newsletters/2019/01/08/#continued-sighash-discussion
+
+  - title: Tagging outputs to increase safety of `SIGHASH_NOINPUT_UNSAFE`
+    url: /en/newsletters/2019/02/19/#discussion-about-tagging-outputs-to-enable-restricted-features-on-spending
+
+  - title: Discussion about increasing `SIGHASH_NOINPUT_UNSAFE` safety
+    url: /en/newsletters/2019/03/19/#more-discussion-about-sighash-noinput-unsafe
+
+  - title: New proposed `SIGHASH_ANYPREVOUT` mode
+    url: /en/newsletters/2019/05/21/#proposed-anyprevout-sighash-modes
+
+  - title: Criticism of `SIGHASH_ANYPREVOUT` and a generic alternative
+    url: /en/newsletters/2019/05/29/#not-generic-enough
+
+  - title: Continued discussion of noinput/anyprevout
+    url: /en/newsletters/2019/10/09/#continued-discussion-about-noinput-anyprevout
+
+  - title: "2018 year-in-review: `SIGHASH_NOINPUT`"
+    url: /en/newsletters/2018/12/28#sighash_noinput
+
+  - title: "2019 year-in-review: `SIGHASH_ANYPREVOUT`"
+    url: /en/newsletters/2019/12/28/#anyprevout
+
+  - title: "Modification to `SIGHASH_ANYPREVOUTANYSCRIPT` to improve eltoo flexibility"
+    url: /en/newsletters/2020/01/29/#layered-commitments-with-eltoo
+
+  - title: "Impact of SIGHASH_NOINPUT and eltoo on LN backups"
+    url: /en/newsletters/2020/06/03/#ln-backups
+
+  - title: "Coinpool: using SIGHASH_NOINPUT to help create payment pools"
+    url: /en/newsletters/2020/06/17/#coinpool-generalized-privacy-for-identifiable-onchain-protocols
+
+  - title: "Request to replace BIP118 with the `SIGHASH_ANYPREVOUT` proposal"
+    url: /en/newsletters/2020/07/15/#bip118-update
+
+  - title: "Discussion of various topics, including `SIGHASH_ANYPREVOUT`"
+    url: /en/newsletters/2020/08/05/#sydney-meetup-discussion
+
+  - title: "Using schnorr signatures plus `OP_CAT` to simulate `SIGHASH_ANYPREVOUT`"
+    url: /en/newsletters/2021/02/03/#replicating-op-checksigfromstack-with-bip340-and-op-cat
+
+  - title: "BIPs #943 updates BIP118 to be named SIGHASH_ANYPREVOUT rather than SIGHASH_NOINPUT"
+    url: /en/newsletters/2021/07/14/#bips-943
+
+  - title: "Inherited identifiers proposal as an alternative to `SIGHASH_ANYPREVOUT`"
+    url: /en/newsletters/2021/10/06/#proposal-for-transaction-heritage-identifiers
+
+  - title: "2021 year-in-review: SIGHASH_ANYPREVOUT"
+    url: /en/newsletters/2021/12/22/#anyprevout
+
+  - title: Discussion about how APO or other covenant features could make DLCs much more efficient
+    url: /en/newsletters/2022/02/02/#improving-dlc-efficiency-by-changing-script
+
+  - title: OP_TXHASH as a proposed alternative to CTV and APO
+    url: /en/newsletters/2022/02/02/#composable-alternatives-to-ctv-and-apo
+
+  - title: "Request to activate a slightly modified APO instead of (or before) CTV"
+    url: /en/newsletters/2022/04/27/#requested
+
+  - title: "Creating drivechains with APO and a trusted setup"
+    url: /en/newsletters/2022/09/21/#creating-drivechains-with-apo-and-a-trusted-setup
+
+  - title: "New software fork of Bitcoin Core for testing to include support for APO"
+    url: /en/newsletters/2022/09/28/#bitcoin-implementation-designed-for-testing-soft-forks-on-signet
+
+  - title: "BIPs #1367 simplifies BIP118’s description of SIGHASH_ANYPREVOUT"
+    url: /en/newsletters/2022/10/05/#bips-1367
+
+  - title: "Mashup of OP_CTV and APO proposed using OP_CSFS and OP_TXHASH"
+    url: /en/newsletters/2023/08/30/#covenant-mashup-using-txhash-and-csfs
+
+  - title: "Using covenants like OP_CTV and APO to improve LN scalability"
+    url: /en/newsletters/2023/09/27/#using-covenants-to-improve-ln-scalability
+
+## Optional.  Same format as "primary_sources" above
+see_also:
+  - title: Eltoo
+    link: topic eltoo
+
+  - title: Covenants
+    link: topic covenants
+
+redirect_from:
+  - /en/topics/sighash_noinput/
+
+---
+A noinput-style sighash is necessary for the proposed [eltoo][topic eltoo]
+layer for LN.
+
+{% include references.md %}

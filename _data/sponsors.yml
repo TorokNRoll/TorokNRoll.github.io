@@ -1,0 +1,151 @@
+## When putting either quotes or exposition into the same types of
+## slots, ensure quotations are displayed surrounded by quotes marks to
+## differentiate the two types of information
+sponsors:
+  -
+    name: Wences Casares
+    avatar: casares.jpg
+    quote: >-
+      "It will take a very large ecosystem of trustworthy companies to ensure that Bitcoin succeeds and can be used by the entire world. By helping Bitcoin companies adopt the best technology and spreading knowledge and best practice among Bitcoin engineers, Bitcoin Optech is contributing to the success of the most important leap forward in the democratization of money we've ever seen."
+  -
+    name: John Pfeffer
+    twitter: jlppfeffer
+    avatar: pfeffer.jpg
+    quote: >-
+      "I’m an investor and believer that everyone who has a stake in Bitcoin has a duty to contribute and give back to Bitcoin development, including hodlers!  Wences, Alex and I hope that everyone will pitch in, contribute and do their bit to help make this grand challenge to scale Bitcoin a success."
+  -
+    name: Alex Morcos
+    twitter: morcosa
+    avatar: morcos.jpg
+    quote: >-
+      "John and the Optech team have really taken the initiative to help build a higher level of communication and collaboration between industry and the open source development community.  We're just at the beginning of realizing the potential of Bitcoin and related technology, and I'm excited to see how much we can all accomplish working together."
+
+supporters:
+  -
+    name: AndGo
+    website: https://www.andgo.co.jp/en
+    logo: andgo.png
+  -
+    name: bitbank
+    website: https://bitbank.cc/en/
+    logo: bitbank.png
+  -
+    name: BitGo
+    website: https://twitter.com/BitGo
+    logo: bitgo.png
+  -
+    name: BitMEX
+    website: https://twitter.com/BitMEXdotcom
+    logo: bitmex.png
+  -
+    name: Bitonic
+    website: https://twitter.com/Bitonic
+    logo: bitonic.png
+  -
+    name: Bitrefill
+    website: https://twitter.com/bitrefill
+    logo: bitrefill.svg
+  -
+    name: Bitso
+    website: https://twitter.com/Bitso
+    logo: bitso.svg
+  -
+    name: Bitstamp
+    website: https://twitter.com/Bitstamp
+    logo: bitstamp.png
+  -
+    name: BRD
+    website: https://twitter.com/brdhq
+    logo: BRD.png
+  -
+    name: BTSE
+    website: https://twitter.com/BTSEcom
+    logo: btse.png
+  -
+    name: Casa
+    website: https://twitter.com/CasaHODL
+    logo: casa.png
+  -
+    name: Coinbase
+    website: https://twitter.com/Coinbase
+    logo: coinbase.png
+  -
+    name: Conio
+    website: https://twitter.com/conio
+    logo: conio.png
+  -
+    name: CryptoGarage
+    website: https://twitter.com/cryptogarageinc
+    logo: CryptoGarage.png
+  -
+    name: Edge
+    website: https://twitter.com/EdgeWallet
+    logo: edge.png
+  -
+    name: Electrum
+    website: https://twitter.com/ElectrumWallet
+    logo: electrum.png
+  -
+    name: Fidelity Center for Applied Technology
+    website: https://twitter.com/FCATalyst
+    logo: fcat.png
+  -
+    name: Kraken
+    website: https://twitter.com/krakenfx
+    logo: kraken.png
+  -
+    name: Ledger
+    website: https://twitter.com/LedgerHQ
+    logo: ledger.png
+  -
+    name: Nayuta
+    website: https://twitter.com/Nayuta_en
+    logo: nayuta.png
+  -
+    name: Nunchuk
+    website: https://twitter.com/nunchuk_io
+    logo: nunchuk.png
+  -
+    name: OKcoin
+    website: https://twitter.com/OKcoin
+    logo: okcoin.png
+  -
+    name: Paxos
+    website: https://twitter.com/PaxosGlobal
+    logo: paxos.png
+  -
+    name: Purse
+    website: https://twitter.com/PurseIO
+    logo: purse.png
+  -
+    name: River Financial
+    website: https://river.com
+    logo: river.png
+  -
+    name: Square
+    website: https://twitter.com/Square
+    logo: square.png
+  -
+    name: Swan
+    website: https://twitter.com/SwanBitcoin
+    logo: swan.png
+  -
+    name: Unchained Capital
+    website: https://twitter.com/unchainedcap
+    logo: unchained-capital.png
+  -
+    name: Veriphi
+    website: https://twitter.com/veriphibtc
+    logo: veriphi.png
+  -
+    name: Xapo
+    website: https://twitter.com/xapoprivatebank
+    logo: xapo.png
+  -
+    name: XBTO
+    website: https://twitter.com/xbtogroup
+    logo: xbto.png
+  -
+    name: Yellow Card
+    website: https://twitter.com/yellowcardio
+    logo: yellowcard.png
